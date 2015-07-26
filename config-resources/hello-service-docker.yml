@@ -1,0 +1,13 @@
+server:
+  port: 8796
+
+aso:
+  host: http://wiremock-server:8099
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server:8761/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 30
+    preferIpAddress: true

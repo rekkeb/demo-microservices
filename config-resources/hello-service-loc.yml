@@ -1,0 +1,11 @@
+server:
+  port: 0
+
+hello:
+  to:
+    alpablo.vl
+
+eureka:
+  instance:
+    metadataMap:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
