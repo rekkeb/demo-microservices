@@ -7,3 +7,6 @@
 .project
 .classpath
 .settings
+
+#Mac Files
+.DS_Store
