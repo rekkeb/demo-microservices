@@ -1,0 +1,16 @@
+server:
+  port: 8000
+
+#port: the port the non-jvm app is listening on
+#health-uri: a uri accessible on the non-jvm app that mimicks a Spring Boot health indicator
+sidecar:
+  port: 8080
+  health-uri: http://localhost:8080/status
+
+eureka:
+    instance:
+        metadataMap:
+            instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka/

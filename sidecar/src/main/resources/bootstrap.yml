@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: sidecar
+  profiles:
+    active: loc
+  cloud:
+    config:
+      uri: http://localhost:8585
