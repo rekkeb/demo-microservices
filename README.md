@@ -9,3 +9,4 @@ Each subproject inside this repo is built with Spring Cloud Framework.
 * Microservice implementation (HelloService)
 * Hystrix Dashboard
 * Turbine
+* Sidecar
