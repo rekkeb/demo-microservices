@@ -5,7 +5,7 @@ spring:
       config:
         server:
           git:
-            uri: git@bitbucket.org:rekkeb/demo-microservices.git
+            uri: git@github.com:rekkeb/demo-microservices.git
             searchPaths: config-resources
           defaultLabel: master
 
