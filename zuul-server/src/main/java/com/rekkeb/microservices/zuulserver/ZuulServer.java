@@ -13,6 +13,6 @@ public class ZuulServer {
 
     public static void main(String args[]){
 
-        new SpringApplicationBuilder((ZuulServer.class)).web(true).run(args);
+        new SpringApplicationBuilder(ZuulServer.class).web(true).run(args);
     }
 }
