@@ -6,3 +6,12 @@ spring:
   cloud:
     config:
       uri: http://localhost:8585
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 5
+  client:
+    #eurekaConnectionIdleTimeoutSeconds: 10
+    #registryFetchIntervalSeconds: 5
+    #instanceInfoReplicationIntervalSeconds: 5
+    heartbeatExecutorThreadPoolSize: 4
