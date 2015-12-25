@@ -16,7 +16,7 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 @EnableHystrix
 public class HelloApplication {
 
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         new SpringApplicationBuilder(HelloApplication.class).run(args);
     }
